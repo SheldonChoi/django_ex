@@ -20,7 +20,12 @@ def template_test(httpRequest):
     return render(httpRequest, 'content.html', {'current_time': current_time, 'name': 'UnyongChoi'})
 
 def cal_extra_work_time(httpRequest) :
-    worktimes = "9:20, 8:20, 7:20, 8:10, 8:50, 8:40, 6:10, 8:30, 7:40, 9:20, 8:40, 7:10, 6:50, 7:40"
+    worktimes = """  
+        9:00, 8:30, 8:20, 6:00, 0:00,
+        8:50, 11:00, 7:30, 8:00, 8:00,
+        8:00, 6:50, 8:00, 8:00, 8:00,
+        8:00, 8:00, 8:00, 8:00, 8:00
+    """
     days, calculated_time, expected_time = parsing_and_calculate_extra_or_overtime(worktimes)
 
     return render(httpRequest, 'extra_time_calculator.html', {'worktimes': worktimes, 'work_days': days, "calculated_time": calculated_time, "expected_time":expected_time})
