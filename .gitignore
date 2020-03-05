@@ -17311,3 +17311,15 @@ mysite/mysite/__pycache__/forms.cpython-37.pyc
 .venv/lib/python3.8/site-packages/setuptools-41.2.0.dist-info/top_level.txt
 .venv/lib/python3.8/site-packages/setuptools-41.2.0.dist-info/WHEEL
 .venv/lib/python3.8/site-packages/setuptools-41.2.0.dist-info/zip-safe
+mysite/books/__pycache__/__init__.cpython-38.pyc
+mysite/books/__pycache__/admin.cpython-38.pyc
+mysite/books/__pycache__/models.cpython-38.pyc
+mysite/mysite/__pycache__/__init__.cpython-38.pyc
+mysite/mysite/__pycache__/settings.cpython-38.pyc
+mysite/mysite/__pycache__/urls.cpython-38.pyc
+mysite/mysite/__pycache__/views.cpython-38.pyc
+mysite/mysite/__pycache__/wsgi.cpython-38.pyc
+mysite/books/migrations/__pycache__/__init__.cpython-38.pyc
+mysite/books/migrations/__pycache__/0001_initial.cpython-38.pyc
+mysite/books/migrations/__pycache__/0002_auto_20200205_1407.cpython-38.pyc
+mysite/books/migrations/__pycache__/0003_auto_20200205_1420.cpython-38.pyc
