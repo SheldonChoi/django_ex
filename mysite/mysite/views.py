@@ -24,7 +24,7 @@ def cal_extra_work_time(httpRequest) :
         9:00, 8:30, 8:20, 6:00, 0:00,
         8:50, 11:00, 7:30, 8:00, 8:00,
         8:00, 6:50, 9:20, 8:00, 8:40,
-        8:00, 8:00, 8:00, 8:00, 8:00
+        9:00, 8:00, 8:00, 8:00, 8:00
     """
     days, calculated_time, expected_time = parsing_and_calculate_extra_or_overtime(worktimes)
 
