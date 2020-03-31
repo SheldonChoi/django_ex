@@ -21,9 +21,9 @@ def template_test(httpRequest):
 
 def cal_extra_work_time(httpRequest) :
     worktimes = """  
-        9:00, 8:00, 9:10, 6:50, 7:40,
-        9:10, 8:00, 7:40, 8:00, 7:00,
-              8:00, 8:00, 8:00, 8:00,
+        9:10, 8:00, 9:10, 6:50, 7:40,
+        10:10, 8:00, 7:40, 8:00, 7:00,
+              8:10, 8:00, 8:00, 8:00,
         8:00, 8:00, 8:00, 8:00, 8:00
     """
     days, calculated_time, expected_time = parsing_and_calculate_extra_or_overtime(worktimes)
